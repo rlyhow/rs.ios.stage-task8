@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrawingsViewController" customModule="RSSchool_T8" customModuleProvider="target">
+            <connections>
+                <outlet property="headBtn" destination="6BO-3a-Bi6" id="kq2-Lx-bpc"/>
+                <outlet property="landscapeBtn" destination="eal-8f-x6e" id="JCl-QV-bFd"/>
+                <outlet property="planetBtn" destination="bNY-ud-OJW" id="5E2-q3-02z"/>
+                <outlet property="treeBtn" destination="bwl-eM-k6c" id="GXe-FY-H1e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNY-ud-OJW" customClass="DrawingButton">
+                    <rect key="frame" x="88" y="50" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="DCB-oE-FZi"/>
+                        <constraint firstAttribute="height" constant="40" id="Vp7-jX-PIi"/>
+                    </constraints>
+                    <state key="normal" title="Planet"/>
+                    <connections>
+                        <action selector="choosePicture:" destination="-1" eventType="touchUpInside" id="5as-1G-zAW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BO-3a-Bi6" customClass="DrawingButton">
+                    <rect key="frame" x="88" y="105" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="5E2-fO-Ecf"/>
+                        <constraint firstAttribute="width" constant="200" id="Se6-5S-ZMu"/>
+                    </constraints>
+                    <state key="normal" title="Head"/>
+                    <connections>
+                        <action selector="choosePicture:" destination="-1" eventType="touchUpInside" id="cmk-KM-RXI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwl-eM-k6c" customClass="DrawingButton">
+                    <rect key="frame" x="88" y="160" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="b5e-kt-Jr6"/>
+                        <constraint firstAttribute="width" constant="200" id="lG8-mf-LRw"/>
+                    </constraints>
+                    <state key="normal" title="Tree"/>
+                    <connections>
+                        <action selector="choosePicture:" destination="-1" eventType="touchUpInside" id="QgF-N5-P8Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eal-8f-x6e" customClass="DrawingButton">
+                    <rect key="frame" x="88" y="215" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6dQ-Ti-9bv"/>
+                        <constraint firstAttribute="width" constant="200" id="9uQ-eO-3iD"/>
+                    </constraints>
+                    <state key="normal" title="Landscape"/>
+                    <connections>
+                        <action selector="choosePicture:" destination="-1" eventType="touchUpInside" id="nbz-Jz-3GM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6BO-3a-Bi6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="88" id="7h3-tx-tIG"/>
+                <constraint firstItem="bwl-eM-k6c" firstAttribute="top" secondItem="6BO-3a-Bi6" secondAttribute="bottom" constant="15" id="K1k-O8-Lnp"/>
+                <constraint firstItem="bNY-ud-OJW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="Ztk-tc-2vr"/>
+                <constraint firstItem="bwl-eM-k6c" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="88" id="bFg-8b-bzm"/>
+                <constraint firstItem="eal-8f-x6e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="88" id="d0z-bK-Bdh"/>
+                <constraint firstItem="eal-8f-x6e" firstAttribute="top" secondItem="bwl-eM-k6c" secondAttribute="bottom" constant="15" id="e27-Ei-ADh"/>
+                <constraint firstItem="bNY-ud-OJW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="88" id="j8G-R7-WyW"/>
+                <constraint firstItem="6BO-3a-Bi6" firstAttribute="top" secondItem="bNY-ud-OJW" secondAttribute="bottom" constant="15" id="vdA-ij-Sbf"/>
+            </constraints>
+            <point key="canvasLocation" x="114" y="90"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

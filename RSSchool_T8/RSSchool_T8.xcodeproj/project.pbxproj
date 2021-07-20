@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109A276F26A5EF2700DEC574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A276E26A5EF2700DEC574 /* AppDelegate.m */; };
+		109A277A26A5EF2800DEC574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109A277926A5EF2800DEC574 /* Assets.xcassets */; };
+		109A277D26A5EF2800DEC574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109A277B26A5EF2800DEC574 /* LaunchScreen.storyboard */; };
+		109A278026A5EF2800DEC574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A277F26A5EF2800DEC574 /* main.m */; };
+		109A278A26A5F00100DEC574 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A278826A5F00100DEC574 /* ArtistViewController.m */; };
+		109A278B26A5F00100DEC574 /* ArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109A278926A5F00100DEC574 /* ArtistViewController.xib */; };
+		109A279026A5F17A00DEC574 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109A278E26A5F17A00DEC574 /* Montserrat-Regular.ttf */; };
+		109A279126A5F17A00DEC574 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109A278F26A5F17A00DEC574 /* Montserrat-Medium.ttf */; };
+		109A279D26A5F52F00DEC574 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A279C26A5F52F00DEC574 /* SliderView.m */; };
+		109A27A126A5F59600DEC574 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27A026A5F59600DEC574 /* UIColor+CustomColor.m */; };
+		109A27A426A5F5F200DEC574 /* ChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27A326A5F5F200DEC574 /* ChildView.m */; };
+		109A27A726A5F61600DEC574 /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27A626A5F61600DEC574 /* ColorButton.m */; };
+		109A27AA26A5F63700DEC574 /* SaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27A926A5F63700DEC574 /* SaveButton.m */; };
+		109A27AD26A5F67000DEC574 /* DrawingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27AC26A5F67000DEC574 /* DrawingButton.m */; };
+		109A27B026A5F69200DEC574 /* ControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27AF26A5F69200DEC574 /* ControlButton.m */; };
+		109A27B926A5FBAC00DEC574 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27B726A5FBAC00DEC574 /* PaletteViewController.m */; };
+		109A27BA26A5FBAC00DEC574 /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109A27B826A5FBAC00DEC574 /* PaletteViewController.xib */; };
+		109A27C026A6009000DEC574 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A27BE26A6009000DEC574 /* TimerViewController.swift */; };
+		109A27C126A6009000DEC574 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109A27BF26A6009000DEC574 /* TimerViewController.xib */; };
+		109A27C526A608A700DEC574 /* ArtistViewController+TreeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A27C426A608A700DEC574 /* ArtistViewController+TreeCategory.m */; };
+		109A27CB26A613ED00DEC574 /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A27C926A613ED00DEC574 /* DrawingsViewController.swift */; };
+		109A27CC26A613ED00DEC574 /* DrawingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109A27CA26A613ED00DEC574 /* DrawingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		109A276A26A5EF2700DEC574 /* RSSchool_T8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		109A276D26A5EF2700DEC574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		109A276E26A5EF2700DEC574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		109A277926A5EF2800DEC574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109A277C26A5EF2800DEC574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109A277E26A5EF2800DEC574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109A277F26A5EF2800DEC574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		109A278726A5F00100DEC574 /* ArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		109A278826A5F00100DEC574 /* ArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
+		109A278926A5F00100DEC574 /* ArtistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistViewController.xib; sourceTree = "<group>"; };
+		109A278E26A5F17A00DEC574 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		109A278F26A5F17A00DEC574 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		109A279B26A5F52F00DEC574 /* SliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		109A279C26A5F52F00DEC574 /* SliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
+		109A279F26A5F59600DEC574 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		109A27A026A5F59600DEC574 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		109A27A226A5F5F200DEC574 /* ChildView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildView.h; sourceTree = "<group>"; };
+		109A27A326A5F5F200DEC574 /* ChildView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildView.m; sourceTree = "<group>"; };
+		109A27A526A5F61600DEC574 /* ColorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorButton.h; sourceTree = "<group>"; };
+		109A27A626A5F61600DEC574 /* ColorButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorButton.m; sourceTree = "<group>"; };
+		109A27A826A5F63700DEC574 /* SaveButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveButton.h; sourceTree = "<group>"; };
+		109A27A926A5F63700DEC574 /* SaveButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveButton.m; sourceTree = "<group>"; };
+		109A27AB26A5F67000DEC574 /* DrawingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingButton.h; sourceTree = "<group>"; };
+		109A27AC26A5F67000DEC574 /* DrawingButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingButton.m; sourceTree = "<group>"; };
+		109A27AE26A5F69200DEC574 /* ControlButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlButton.h; sourceTree = "<group>"; };
+		109A27AF26A5F69200DEC574 /* ControlButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlButton.m; sourceTree = "<group>"; };
+		109A27B626A5FBAC00DEC574 /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		109A27B726A5FBAC00DEC574 /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		109A27B826A5FBAC00DEC574 /* PaletteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
+		109A27BD26A6009000DEC574 /* RSSchool_T8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T8-Bridging-Header.h"; sourceTree = "<group>"; };
+		109A27BE26A6009000DEC574 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		109A27BF26A6009000DEC574 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		109A27C326A608A700DEC574 /* ArtistViewController+TreeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtistViewController+TreeCategory.h"; sourceTree = "<group>"; };
+		109A27C426A608A700DEC574 /* ArtistViewController+TreeCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ArtistViewController+TreeCategory.m"; sourceTree = "<group>"; };
+		109A27C926A613ED00DEC574 /* DrawingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
+		109A27CA26A613ED00DEC574 /* DrawingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		109A276726A5EF2700DEC574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109A276126A5EF2700DEC574 = {
+			isa = PBXGroup;
+			children = (
+				109A276C26A5EF2700DEC574 /* RSSchool_T8 */,
+				109A276B26A5EF2700DEC574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		109A276B26A5EF2700DEC574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				109A276A26A5EF2700DEC574 /* RSSchool_T8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109A276C26A5EF2700DEC574 /* RSSchool_T8 */ = {
+			isa = PBXGroup;
+			children = (
+				109A278626A5EFE900DEC574 /* AtristContoller */,
+				109A27C626A613A000DEC574 /* DrawingsController */,
+				109A27BB26A6002100DEC574 /* TimerController */,
+				109A27B526A5FB8600DEC574 /* PaletteChildController */,
+				109A279226A5F4A100DEC574 /* View */,
+				109A27C226A6088B00DEC574 /* Category */,
+				109A279E26A5F55A00DEC574 /* CustomColors */,
+				109A278C26A5F06F00DEC574 /* Basic */,
+			);
+			path = RSSchool_T8;
+			sourceTree = "<group>";
+		};
+		109A278626A5EFE900DEC574 /* AtristContoller */ = {
+			isa = PBXGroup;
+			children = (
+				109A278726A5F00100DEC574 /* ArtistViewController.h */,
+				109A278826A5F00100DEC574 /* ArtistViewController.m */,
+				109A278926A5F00100DEC574 /* ArtistViewController.xib */,
+			);
+			path = AtristContoller;
+			sourceTree = "<group>";
+		};
+		109A278C26A5F06F00DEC574 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				109A276D26A5EF2700DEC574 /* AppDelegate.h */,
+				109A276E26A5EF2700DEC574 /* AppDelegate.m */,
+				109A277926A5EF2800DEC574 /* Assets.xcassets */,
+				109A278D26A5F14C00DEC574 /* Fonts */,
+				109A277B26A5EF2800DEC574 /* LaunchScreen.storyboard */,
+				109A277E26A5EF2800DEC574 /* Info.plist */,
+				109A277F26A5EF2800DEC574 /* main.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		109A278D26A5F14C00DEC574 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				109A278F26A5F17A00DEC574 /* Montserrat-Medium.ttf */,
+				109A278E26A5F17A00DEC574 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		109A279226A5F4A100DEC574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				109A279A26A5F4E500DEC574 /* Slider */,
+				109A279926A5F4DE00DEC574 /* ChildView */,
+				109A279826A5F4D800DEC574 /* ColorButton */,
+				109A279726A5F4D100DEC574 /* SaveButton */,
+				109A279626A5F4C600DEC574 /* DrawingButtons */,
+				109A279526A5F4BE00DEC574 /* ControlButtons */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		109A279526A5F4BE00DEC574 /* ControlButtons */ = {
+			isa = PBXGroup;
+			children = (
+				109A27AE26A5F69200DEC574 /* ControlButton.h */,
+				109A27AF26A5F69200DEC574 /* ControlButton.m */,
+			);
+			path = ControlButtons;
+			sourceTree = "<group>";
+		};
+		109A279626A5F4C600DEC574 /* DrawingButtons */ = {
+			isa = PBXGroup;
+			children = (
+				109A27AB26A5F67000DEC574 /* DrawingButton.h */,
+				109A27AC26A5F67000DEC574 /* DrawingButton.m */,
+			);
+			path = DrawingButtons;
+			sourceTree = "<group>";
+		};
+		109A279726A5F4D100DEC574 /* SaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				109A27A826A5F63700DEC574 /* SaveButton.h */,
+				109A27A926A5F63700DEC574 /* SaveButton.m */,
+			);
+			path = SaveButton;
+			sourceTree = "<group>";
+		};
+		109A279826A5F4D800DEC574 /* ColorButton */ = {
+			isa = PBXGroup;
+			children = (
+				109A27A526A5F61600DEC574 /* ColorButton.h */,
+				109A27A626A5F61600DEC574 /* ColorButton.m */,
+			);
+			path = ColorButton;
+			sourceTree = "<group>";
+		};
+		109A279926A5F4DE00DEC574 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				109A27A226A5F5F200DEC574 /* ChildView.h */,
+				109A27A326A5F5F200DEC574 /* ChildView.m */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		109A279A26A5F4E500DEC574 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				109A279B26A5F52F00DEC574 /* SliderView.h */,
+				109A279C26A5F52F00DEC574 /* SliderView.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		109A279E26A5F55A00DEC574 /* CustomColors */ = {
+			isa = PBXGroup;
+			children = (
+				109A279F26A5F59600DEC574 /* UIColor+CustomColor.h */,
+				109A27A026A5F59600DEC574 /* UIColor+CustomColor.m */,
+			);
+			path = CustomColors;
+			sourceTree = "<group>";
+		};
+		109A27B526A5FB8600DEC574 /* PaletteChildController */ = {
+			isa = PBXGroup;
+			children = (
+				109A27B626A5FBAC00DEC574 /* PaletteViewController.h */,
+				109A27B726A5FBAC00DEC574 /* PaletteViewController.m */,
+				109A27B826A5FBAC00DEC574 /* PaletteViewController.xib */,
+			);
+			path = PaletteChildController;
+			sourceTree = "<group>";
+		};
+		109A27BB26A6002100DEC574 /* TimerController */ = {
+			isa = PBXGroup;
+			children = (
+				109A27BE26A6009000DEC574 /* TimerViewController.swift */,
+				109A27BF26A6009000DEC574 /* TimerViewController.xib */,
+				109A27BD26A6009000DEC574 /* RSSchool_T8-Bridging-Header.h */,
+			);
+			path = TimerController;
+			sourceTree = "<group>";
+		};
+		109A27C226A6088B00DEC574 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				109A27C326A608A700DEC574 /* ArtistViewController+TreeCategory.h */,
+				109A27C426A608A700DEC574 /* ArtistViewController+TreeCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		109A27C626A613A000DEC574 /* DrawingsController */ = {
+			isa = PBXGroup;
+			children = (
+				109A27C926A613ED00DEC574 /* DrawingsViewController.swift */,
+				109A27CA26A613ED00DEC574 /* DrawingsViewController.xib */,
+			);
+			path = DrawingsController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		109A276926A5EF2700DEC574 /* RSSchool_T8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109A278326A5EF2800DEC574 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */;
+			buildPhases = (
+				109A276626A5EF2700DEC574 /* Sources */,
+				109A276726A5EF2700DEC574 /* Frameworks */,
+				109A276826A5EF2700DEC574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool_T8;
+			productName = RSSchool_T8;
+			productReference = 109A276A26A5EF2700DEC574 /* RSSchool_T8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109A276226A5EF2700DEC574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					109A276926A5EF2700DEC574 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 109A276526A5EF2700DEC574 /* Build configuration list for PBXProject "RSSchool_T8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109A276126A5EF2700DEC574;
+			productRefGroup = 109A276B26A5EF2700DEC574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				109A276926A5EF2700DEC574 /* RSSchool_T8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109A276826A5EF2700DEC574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109A27C126A6009000DEC574 /* TimerViewController.xib in Resources */,
+				109A27CC26A613ED00DEC574 /* DrawingsViewController.xib in Resources */,
+				109A279026A5F17A00DEC574 /* Montserrat-Regular.ttf in Resources */,
+				109A279126A5F17A00DEC574 /* Montserrat-Medium.ttf in Resources */,
+				109A277D26A5EF2800DEC574 /* LaunchScreen.storyboard in Resources */,
+				109A278B26A5F00100DEC574 /* ArtistViewController.xib in Resources */,
+				109A27BA26A5FBAC00DEC574 /* PaletteViewController.xib in Resources */,
+				109A277A26A5EF2800DEC574 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		109A276626A5EF2700DEC574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109A27B926A5FBAC00DEC574 /* PaletteViewController.m in Sources */,
+				109A27A126A5F59600DEC574 /* UIColor+CustomColor.m in Sources */,
+				109A27B026A5F69200DEC574 /* ControlButton.m in Sources */,
+				109A27CB26A613ED00DEC574 /* DrawingsViewController.swift in Sources */,
+				109A27C526A608A700DEC574 /* ArtistViewController+TreeCategory.m in Sources */,
+				109A27AD26A5F67000DEC574 /* DrawingButton.m in Sources */,
+				109A276F26A5EF2700DEC574 /* AppDelegate.m in Sources */,
+				109A27AA26A5F63700DEC574 /* SaveButton.m in Sources */,
+				109A27A726A5F61600DEC574 /* ColorButton.m in Sources */,
+				109A279D26A5F52F00DEC574 /* SliderView.m in Sources */,
+				109A278A26A5F00100DEC574 /* ArtistViewController.m in Sources */,
+				109A278026A5EF2800DEC574 /* main.m in Sources */,
+				109A27C026A6009000DEC574 /* TimerViewController.swift in Sources */,
+				109A27A426A5F5F200DEC574 /* ChildView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		109A277B26A5EF2800DEC574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109A277C26A5EF2800DEC574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109A278126A5EF2800DEC574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		109A278226A5EF2800DEC574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109A278426A5EF2800DEC574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 992S4CF5Q6;
+				INFOPLIST_FILE = RSSchool_T8/Basic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "by.mikitashalima.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/TimerController/RSSchool_T8-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109A278526A5EF2800DEC574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 992S4CF5Q6;
+				INFOPLIST_FILE = RSSchool_T8/Basic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "by.mikitashalima.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/TimerController/RSSchool_T8-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109A276526A5EF2700DEC574 /* Build configuration list for PBXProject "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109A278126A5EF2800DEC574 /* Debug */,
+				109A278226A5EF2800DEC574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109A278326A5EF2800DEC574 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109A278426A5EF2800DEC574 /* Debug */,
+				109A278526A5EF2800DEC574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 109A276226A5EF2700DEC574 /* Project object */;
+}
